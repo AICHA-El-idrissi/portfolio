@@ -63,11 +63,11 @@ export default function Portfolio() {
     github: "https://github.com/AICHA-El-idrissi",
     linkedin: "https://www.linkedin.com/in/aicha-el-idrissi-9a670232a",
     location: "Morocco",
-    university: "Engineering School"
+    university: "Ensa - Fès"
   };
 
   const skills = [
-    { name: "C / C++", icon: <Code className="w-6 h-6" />, level: 85, color: "from-blue-500 to-cyan-500" },
+    { name: "C ", icon: <Code className="w-6 h-6" />, level: 85, color: "from-blue-500 to-cyan-500" },
     { name: "Embedded Systems", icon: <Database className="w-6 h-6" />, level: 80, color: "from-green-500 to-emerald-500" },
     { name: "Microcontrollers", icon: <Cpu className="w-6 h-6" />, level: 75, color: "from-purple-500 to-pink-500" },
     { name: "RTOS & Linux", icon: <Layout className="w-6 h-6" />, level: 70, color: "from-orange-500 to-red-500" },
@@ -80,7 +80,7 @@ export default function Portfolio() {
       title: "PID Control System",
       description: "Single-axis drone stabilization using Arduino, brushless motors, and ESCs with MPU6050 sensor fusion and real-time PID control.",
       tech: ["C", "Arduino", "PID", "Sensors"],
-      image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800&h=600&fit=crop",
+      image: "/images/PID_controller_img.jpg",
       github: "https://github.com/aicha-el-idrissi/robot-differential",
       demo: "",
       category: "Embedded"
